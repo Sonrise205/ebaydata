@@ -85,7 +85,7 @@ Only items with prices set (83 items) are scraped by default.
 
 ## Configuration
 
-Edit `config.py` to customize:
+Edit `scraper_config.py` to customize:
 
 ```python
 # Scraping delays (seconds)

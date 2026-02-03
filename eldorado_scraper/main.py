@@ -7,7 +7,7 @@ import argparse
 import sys
 from datetime import datetime
 
-import config
+import scraper_config as config
 from items_database import build_items_database, get_searchable_items, get_items_by_demand
 from scraper import scrape_all_items
 from exporter import export_results, export_to_csv, export_to_txt

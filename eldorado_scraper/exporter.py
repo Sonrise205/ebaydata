@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 from typing import List, Optional
 
-import config
+import scraper_config as config
 
 
 def calculate_margin(our_price: Optional[float], competitor_price: float) -> tuple:

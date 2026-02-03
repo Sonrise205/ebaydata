@@ -8,7 +8,7 @@ from datetime import datetime
 from typing import Optional
 from playwright.async_api import async_playwright, Page, Browser, TimeoutError as PlaywrightTimeout
 
-import config
+import scraper_config as config
 from matcher import is_match, calculate_match_score
 
 
